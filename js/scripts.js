@@ -12,3 +12,12 @@ function newItem() {
     $('#list').append(li);
   }
 
+  //crossing off a list item
+  function crossOut() {
+    li.toggleClass("strike");
+  }
+
+  li.on("dblclick", function crossOut() {
+    li.toggleClass("strike");
+  });
+
