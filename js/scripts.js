@@ -31,3 +31,7 @@ function newItem() {
     li.addClass('delete')
   }
 
+  //list items can be reordered 
+  $('#list').sortable();
+}
+
